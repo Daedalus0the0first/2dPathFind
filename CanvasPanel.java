@@ -263,6 +263,8 @@ public class CanvasPanel extends JPanel{
 				cells.setDistance(i, j, Integer.MAX_VALUE);
 			}
 		}
+		setEndPoint(endPointX, endPointY);
+		setStartPoint(startPointX, startPointY);
   	}
   	
   	//returns the coord of the adjacent cell with the smallest distance
